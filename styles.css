@@ -138,13 +138,13 @@
 }
 :root {
 --primary: #000080;
-  --secondary: #FFF0E0;
-  --accent: #FFFFFF;
-  --bg-light: #FFFFFF;
+  --secondary: #0000CC;
+  --accent: #FFD099;
+  --bg-light: #FFF0E0;
   --bg-dark: #000080;
   --text-dark: #4A4A4A;
   --text-light: #F3EDE5;
-  --text-muted: #707070;
+  --text-muted: #626262;
   --border-light: #888178;
   --border-dark: #7290db;
   --nav-bg: #F3EDE5;
@@ -172,8 +172,8 @@
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.35s ease;
 
-  --gradient-primary: linear-gradient(135deg, #FFFFFF 0%, #FEFEFE 50%, #FFE3C6 100%);
-  --gradient-gold-shine: linear-gradient(90deg, #FFE3C6 0%, #FEFEFE 40%, #FFFFFF 60%, #FFE3C6 100%);
+  --gradient-primary: linear-gradient(135deg, #FFFFFF 0%, #FEFEFE 50%, #0000B2 100%);
+  --gradient-gold-shine: linear-gradient(90deg, #0000B2 0%, #FEFEFE 40%, #FFFFFF 60%, #0000B2 100%);
   --gradient-secondary: linear-gradient(180deg, #00002A 0%, #000057 100%);
   --gradient-gold-accent: linear-gradient(135deg, #FFFFFF 0%, #FDFDFD 50%, #FFFFFF 100%);
   --gradient-dark-section: linear-gradient(180deg, #0D1B3E 0%, #081428 100%);
@@ -181,12 +181,12 @@
   --gradient-light-section: linear-gradient(180deg, #F5EFE6 0%, #EBE0D0 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(245,239,230,0.0) 0%, rgba(245,239,230,0.9) 100%);
   --primary-color: #000080;
-  --secondary-color: #FFF0E0;
-  --accent-color: #FFFFFF;
-  --background-color: #FFFFFF;
-  --surface-color: #F9FAFB;
+  --secondary-color: #0000CC;
+  --accent-color: #FFD099;
+  --background-color: #FFF0E0;
+  --surface-color: #FFFFFF;
   --text-color: #4A4A4A;
-  --text-secondary-color: #707070;
+  --text-secondary-color: #626262;
 }
 
 *,
@@ -641,7 +641,7 @@ a:hover {
 .pb-section { padding-bottom: var(--spacing-section) !important; }
 
 .card {
-  background: #F9FAFB;
+  background: #FFD099;
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
   padding: var(--spacing-card-padding);
@@ -713,7 +713,7 @@ select {
   font-family: 'Rubik', sans-serif;
   font-size: 15px;
   color: var(--text-dark);
-  background: #FFFFFF;
+  background: #0000CC;
   transition: var(--transition-default);
   width: 100%;
   direction: rtl;
@@ -845,13 +845,13 @@ textarea::placeholder {
   --nav-text: #2A241E;
   --nav-text-hover: #B08A3C;
   --primary: #000080;
-  --secondary: #FFF0E0;
-  --accent: #FFFFFF;
-  --bg-light: #FFFFFF;
+  --secondary: #0000CC;
+  --accent: #FFD099;
+  --bg-light: #FFF0E0;
   --bg-dark: #000080;
   --text-dark: #4A4A4A;
   --text-light: #F3EDE5;
-  --text-muted: #707070;
+  --text-muted: #626262;
   --border-light: #888178;
   --border-dark: #7290db;
 }
@@ -1117,13 +1117,13 @@ textarea::placeholder {
   --nav-text: #2A241E;
   --nav-text-hover: #B08A3C;
   --primary: #000080;
-  --secondary: #FFF0E0;
-  --accent: #FFFFFF;
-  --bg-light: #FFFFFF;
+  --secondary: #0000CC;
+  --accent: #FFD099;
+  --bg-light: #FFF0E0;
   --bg-dark: #000080;
   --text-dark: #4A4A4A;
   --text-light: #F3EDE5;
-  --text-muted: #707070;
+  --text-muted: #626262;
   --border-light: #888178;
   --border-dark: #7290db;
 }
@@ -1660,7 +1660,7 @@ html[lang="ar"] .nav-right-group .nav-menu {
   position: absolute;
   top: calc(100% + 8px);
   min-width: 220px;
-  background: var(--bg-light, #ffffff);
+  background: var(--bg-light, #FFD099);
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
   border-radius: 8px;
   padding: 8px 0;
@@ -1884,7 +1884,7 @@ html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .dropdown-menu {
     /* Mobile menu is position:fixed so it CANNOT inherit background from navbar.
        When --nav-bg is transparent (hero-overlay navbars), the menu would be invisible.
        Always use a solid background derived from the palette. */
-    background-color: var(--bg-light, #ffffff) !important;
+    background-color: var(--bg-light, #FFD099) !important;
     flex-direction: column !important;
     gap: 0;
     padding: 20px 0;
@@ -2294,13 +2294,13 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 .site-footer {
   --primary: #000080;
-  --secondary: #FFF0E0;
-  --accent: #FFFFFF;
-  --bg-light: #FFFFFF;
+  --secondary: #0000CC;
+  --accent: #FFD099;
+  --bg-light: #FFF0E0;
   --bg-dark: #000080;
   --text-dark: #4A4A4A;
   --text-light: #F3EDE5;
-  --text-muted: #707070;
+  --text-muted: #626262;
   --border-light: #888178;
   --border-dark: #7290db;
 
@@ -2802,7 +2802,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #FFD099;
   margin: 0 0 14px 0;
   text-align: right;
 }
@@ -2891,8 +2891,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 .index-hero-section .index-hero-btn-secondary:hover {
   background: rgba(217,188,122,0.12);
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #FFD099;
+  color: #FFD099;
   transform: translateY(-2px);
 }
 
@@ -6684,7 +6684,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #FFF0E0;
+  color: #7a7aff;
   margin-bottom: 16px;
   opacity: 0.92;
 }
@@ -6709,8 +6709,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .custom-pieces-hero-section .cph-headline-accent {
-  color: #FFF0E0;
-  -webkit-text-fill-color: #FFF0E0;
+  color: #7a7aff;
+  -webkit-text-fill-color: #0000CC;
   font-style: italic;
 }
 
@@ -6734,8 +6734,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   gap: 10px;
   flex-direction: row;
   background: linear-gradient(135deg, #000057 0%, #00002A 100%);
-  color: #FFF0E0;
-  border: 1px solid #FFF0E0;
+  color: #7a7aff;
+  border: 1px solid #0000CC;
   border-radius: 4px;
   padding: 14px 40px;
   font-family: 'Rubik', sans-serif;
@@ -6750,9 +6750,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .custom-pieces-hero-section .cph-cta-btn:hover {
-  background: linear-gradient(135deg, #FFFFFF 0%, #FFE3C6 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #0000B2 100%);
   color: #8080ff;
-  border-color: #FFF0E0;
+  border-color: #0000CC;
   box-shadow: 0 12px 40px rgba(201, 168, 76, 0.3);
   transform: translateY(-2px);
 }
@@ -8218,7 +8218,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .contact-contact-form-section .cfs-input:focus {
   border-color: var(--secondary);
   box-shadow: 0 0 0 3px rgba(176, 138, 60, 0.15), inset 0 2px 8px rgba(13,27,62,0.05);
-  background: #FFFFFF;
+  background: #0000CC;
 }
 .contact-contact-form-section .cfs-textarea {
   resize: vertical;
@@ -8587,7 +8587,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   border: 1px solid rgba(201, 168, 76, 0.3);
   border-radius: 50%;
   margin-bottom: 20px;
-  color: #FFF0E0;
+  color: #7a7aff;
   flex-shrink: 0;
   transition: var(--transition-default, all 0.3s ease);
 }
@@ -8598,7 +8598,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .contact-details-section .contact-details-icon-wrap svg {
-  color: #FFF0E0;
+  color: #7a7aff;
 }
 
 /* Block content */
@@ -8646,7 +8646,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   flex-direction: row;
   align-items: center;
   gap: 8px;
-  color: #FFF0E0;
+  color: #7a7aff;
   font-family: 'Rubik', sans-serif;
   font-size: 0.875rem;
   font-weight: 500;
@@ -8663,7 +8663,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   background: rgba(201, 168, 76, 0.16);
   border-color: rgba(201, 168, 76, 0.6);
   box-shadow: 0 4px 16px rgba(201, 168, 76, 0.2);
-  color: #FFFFFF;
+  color: #FFD099;
 }
 
 .contact-details-section .contact-details-link i {
@@ -8674,7 +8674,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .contact-details-section .contact-details-link--gold {
   background: linear-gradient(135deg, rgba(201,168,76,0.18) 0%, rgba(201,168,76,0.08) 100%);
   border-color: rgba(201, 168, 76, 0.55);
-  color: #FFFFFF;
+  color: #FFD099;
   font-weight: 600;
 }
 
@@ -9335,7 +9335,7 @@ a, button {
 .product-tag { display: inline-block; padding: 4px 10px; font-size: 11px; font-weight: 600; border-radius: 4px; background: var(--accent, var(--primary)); color: #fff; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 4px rgba(0,0,0,0.15); pointer-events: auto; }
 .product-tag.tag-sale { background: #ef4444; }
 .product-tag.tag-new { background: #22c55e; }
-.product-tag.tag-featured { background: #FFF0E0; }
+.product-tag.tag-featured { background: #0000CC; }
 
 /* Filter buttons - V2 themed */
 .product-filters {
@@ -9557,7 +9557,7 @@ a, button {
 /* ── Accordion Panels ── */
 .checkout-accordion { display: flex; flex-direction: column; gap: 16px; }
 .checkout-accordion-panel {
-  background: #FFFFFF;
+  background: #0000CC;
   border: 1px solid rgba(0,0,0,0.06);
   border-radius: 8px;
   overflow: hidden;
@@ -9672,7 +9672,7 @@ a, button {
   padding: 14px 16px;
   border: 1px solid #f5f5f5;
   border-radius: 8px;
-  background: #FFFFFF;
+  background: #0000CC;
   color: var(--text-dark);
   font-size: 16px;
   box-shadow: 0px 1px 2px rgba(16,24,40,0.05);
@@ -9829,13 +9829,13 @@ a, button {
   border-radius: 12px;
   object-fit: cover;
   flex-shrink: 0;
-  background: #FFFFFF;
+  background: #0000CC;
 }
 .checkout-item-thumb-empty {
   width: 100px;
   height: 100px;
   border-radius: 12px;
-  background: #FFFFFF;
+  background: #0000CC;
   flex-shrink: 0;
 }
 .checkout-item-info {
@@ -9907,7 +9907,7 @@ a, button {
 /* ── Order Details Sidebar ── */
 .checkout-order-details {
   padding: 24px;
-  background: #FFFFFF;
+  background: #0000CC;
   border: 1px solid rgba(0,0,0,0.06);
   border-radius: 8px;
   height: fit-content;
@@ -10005,7 +10005,7 @@ a, button {
 .order-success-card {
   max-width: 677px;
   margin: 0 auto;
-  background: #FFFFFF;
+  background: #0000CC;
   border: 1px solid rgba(0,0,0,0.06);
   border-radius: 8px;
   padding: 18px 80px 40px;
@@ -10091,7 +10091,7 @@ a, button {
 }
 .order-summary {
   padding: 24px;
-  background: #FFFFFF;
+  background: #0000CC;
   border-radius: 12px;
   height: fit-content;
   position: sticky;
@@ -10161,7 +10161,7 @@ a, button {
   margin-bottom: 16px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #FFFFFF;
+  background: #0000CC;
   color: var(--text-dark);
 }
 .login-form input:focus,
@@ -10238,11 +10238,11 @@ a, button {
   font-weight: 500;
   text-transform: uppercase;
 }
-.status-pending { background: #fef3c7; color: #a35400; }
-.status-paid { background: #d1fae5; color: #065f46; }
+.status-pending { background: #fef3c7; color: #0000CC; }
+.status-paid { background: #0000CC; color: #065f46; }
 .status-processing { background: #dbeafe; color: #000080; }
 .status-shipped { background: #e0e7ff; color: #000080; }
-.status-delivered { background: #d1fae5; color: #065f46; }
+.status-delivered { background: #0000CC; color: #065f46; }
 .status-cancelled { background: #fee2e2; color: #991b1b; }
 .order-info-row {
   display: flex;
@@ -10309,7 +10309,7 @@ a, button {
   font-size: 1rem;
   width: 100%;
   box-sizing: border-box;
-  background: #FFFFFF;
+  background: #0000CC;
   color: var(--text-dark);
 }
 .profile-form .form-group input:focus { outline: none; border-color: var(--accent); }
@@ -10326,7 +10326,7 @@ a, button {
 .addresses-list { display: flex; flex-direction: column; gap: 12px; }
 .addresses-empty { text-align: center; padding: 32px; color: var(--text-muted); }
 .address-card {
-  background: #FFFFFF;
+  background: #0000CC;
   border: 1px solid var(--border-light);
   border-radius: 8px;
   padding: 16px;
@@ -10422,7 +10422,7 @@ a, button {
   font-size: 1rem;
   width: 100%;
   box-sizing: border-box;
-  background: #FFFFFF;
+  background: #0000CC;
   color: var(--text-dark);
 }
 .address-modal-body .form-group input:focus,
@@ -10601,7 +10601,7 @@ a, button {
 .product-info .product-stock { display: flex; align-items: center; gap: 8px; font-weight: 500; }
 .product-info .product-stock.in-stock { color: #10b981; }
 .product-info .product-stock.out-of-stock { color: #ef4444; }
-.product-info .product-stock.low-stock { color: #b75f00; }
+.product-info .product-stock.low-stock { color: #0000CC; }
 .product-stock svg {
   /* Some themes apply global svg { max-width:100%; height:auto; } which can blow this up.
      Clamp explicitly to icon size. */
@@ -10835,7 +10835,7 @@ a, button {
 }
 .product-upsells .upsell-price.upsell-price-free {
   color: #047857;
-  background: #d1fae5;
+  background: #0000CC;
   padding: 2px 8px;
   border-radius: 999px;
   font-size: 0.8rem;
@@ -10966,7 +10966,7 @@ a, button {
   border: 1px solid var(--border-light);
   border-radius: 6px;
   font-size: 0.9rem;
-  background: #FFFFFF;
+  background: #0000CC;
   color: var(--text-dark);
 }
 .coupon-apply-btn {
@@ -10993,7 +10993,7 @@ a, button {
   margin-top: 12px;
 }
 .coupon-badge {
-  background: #d1fae5;
+  background: #0000CC;
   color: #065f46;
   padding: 4px 12px;
   border-radius: 20px;
@@ -11383,7 +11383,7 @@ a, button {
   color: #fff !important; 
 }
 .cart-link.nav-cart:hover .cart-count { 
-  background: #FFFFFF !important; 
+  background: #0000CC !important; 
   color: var(--accent, #FF2DAA) !important; 
 }
 
@@ -11439,7 +11439,7 @@ a, button {
   border: 1px solid var(--border-light);
   border-radius: 8px;
   font-size: 16px;
-  background: #FFFFFF;
+  background: #0000CC;
   color: var(--text-dark);
   min-width: 100px;
   height: 44px;
@@ -11966,7 +11966,7 @@ html[lang="ar"] .mobile-search-panel .search-wrapper,
   }
   /* Focus state on container - wraps entire search box including button */
   .navbar .nav-search-box:focus-within {
-    border-color: var(--primary, #6D28D9) !important;
+    border-color: var(--primary, #0000CC) !important;
     box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.15) !important;
   }
   .navbar .nav-search-box .nav-search-input {
@@ -13336,15 +13336,15 @@ main,
    * modal — which doesn't use backdrop-filter — overrides this to a solid
    * white below so it doesn't render see-through against the page. */
   --cc-bg: rgba(255, 255, 255, 0.96);
-  --cc-modal-bg: #ffffff;
+  --cc-modal-bg: #FFD099;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
   --cc-btn-primary-bg: #000080;
-  --cc-btn-primary-color: #ffffff;
+  --cc-btn-primary-color: #FFD099;
   --cc-btn-primary-border: #000080;
   --cc-btn-primary-hover-bg: #000080;
   --cc-btn-primary-hover-border: #000080;
-  --cc-btn-primary-hover-color: #ffffff;
+  --cc-btn-primary-hover-color: #FFD099;
   /* --cc-btn-secondary-* are used by BOTH the bar's "Customize" link and
    * the preferences modal's "Accept Necessary" / "Save Preferences" pills.
    * We keep the token defaults sensible (light grey fill, dark text) so
@@ -13931,11 +13931,17 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
 /* === BUTTON TEXT OVERRIDES START === */
-.btn-secondary,
-.btn--secondary,
-[class*="btn-secondary"],
-[class*="btn--secondary"] { color: #333333 !important; }
 .btn-accent,
 .btn--accent,
 [class*="btn-accent"],
