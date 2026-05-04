@@ -322,7 +322,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0bff1360-91d9-48af-bba8-75dfd0971e35";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "0bff1360-91d9-48af-bba8-75dfd0971e35";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -899,7 +899,7 @@
     </section>
   
 
-<section class="index-features-section" data-layout-spec="בית-features" dir="rtl">
+<section class="index-features-section" data-layout-spec="בית-features" dir="rtl" id="index-features-section">
   <!-- Parchment texture overlay -->
   <div class="index-features-texture" aria-hidden="true"></div>
 
@@ -927,10 +927,10 @@
       <p class="index-features-subtitle">בלהבת קודש, כל יצירה נולדת מתוך אהבה עמוקה למסורת ולאומנות. אנו מאמינים שחפצי יודאיקה אינם רק כלי פולחן — הם נושאי זיכרון, חיבור ורוחניות. כל פריט מעוצב ומוכן בעבודת יד, בשילוב בין עולם המסורת היהודית לבין עיצוב עכשווי ומעודן.</p>
     </header>
 
-    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display: none !important;">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
-        <div class="catalog-menu-categories" id="zappy-category-links">
+        <p class="zappy-editable"><a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
+        </p><div class="catalog-menu-categories" id="zappy-category-links" dir="rtl" style="direction: rtl !important;">
           <!-- Categories will be loaded dynamically -->
         </div>
       </div>
@@ -938,13 +938,10 @@
   
 
     <!-- Three Pillars Grid -->
-    <div class="index-features-grid">
-
-      <!-- Pillar 1 -->
-      <article class="index-features-card">
+    <article class="index-features-card">
         <div class="index-features-card-inner">
           <figure class="index-features-img-wrap">
-            <img data-placeholder="index-features-image-1" data-context="Close-up of artisan hands carefully crafting a golden Hanukkah menorah (chanukiah) from metal, with fine tools and delicate gold detailing visible, warm studio lighting, premium handmade Judaica craftsmanship aesthetic" width="400" height="270" src="/assets/site-index-features-image-1.webp" alt="עבודת יד – יצירת חנוכייה זהב בעבודת אומן">
+            <img data-placeholder="index-features-image-1" data-context="Close-up of artisan hands carefully crafting a golden Hanukkah menorah (chanukiah) from metal, with fine tools and delicate gold detailing visible, warm studio lighting, premium handmade Judaica craftsmanship aesthetic" width="400" height="270" src="/assets/site-index-features-image-1.webp" alt="עבודת יד – יצירת חנוכייה זהב בעבודת אומן" data-element-type="image" data-element-id="img-1777884733940-e46f15byi">
           </figure>
           <div class="index-features-card-body">
             <div class="index-features-icon-wrap" aria-hidden="true">
@@ -969,66 +966,6 @@
           </div>
         </div>
       </article>
-
-      <!-- Pillar 2 -->
-      <article class="index-features-card index-features-card--center">
-        <div class="index-features-card-inner">
-          <figure class="index-features-img-wrap">
-            <img data-placeholder="index-features-image-2" data-context="A unique one-of-a-kind handcrafted mezuzah case with intricate gold and silver filigree patterns, displayed on a cream parchment surface with soft elegant lighting, premium Judaica art object" width="400" height="270" src="/assets/site-index-features-image-2.webp" alt="מזוזה יחידה ומיוחדת – כל פריט הוא יחיד ומיוחד">
-          </figure>
-          <div class="index-features-card-body">
-            <div class="index-features-icon-wrap" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <polygon points="24,4 28,16 40,16 31,24 34,36 24,29 14,36 17,24 8,16 20,16" stroke="var(--secondary)" stroke-width="1.5" stroke-linejoin="round" fill="none"></polygon>
-                <polygon points="24,10 27,18 35,18 29,23 31,31 24,27 17,31 19,23 13,18 21,18" fill="var(--accent)" opacity="0.25"></polygon>
-              </svg>
-            </div>
-            <h3 class="index-features-card-title">כל פריט הוא יחיד ומיוחד</h3>
-            <p class="index-features-card-text">אנו לא מייצרים בסדרות. כל יצירה שיוצאת מהסטודיו שלנו היא חד-פעמית — עם אופי, טקסטורה ואנרגיה משלה. מוצרים בהתאמה אישית זמינים לכל לקוח המחפש יצירה שתישא את שמו, את סיפורו, את ליבו.</p>
-            <div class="index-features-card-divider" aria-hidden="true">
-              <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 160 12" width="160" height="12" xmlns="http://www.w3.org/2000/svg">
-                <line x1="0" y1="6" x2="68" y2="6" stroke="var(--accent)" stroke-width="1" opacity="0.5"></line>
-                <rect x="74" y="3" width="6" height="6" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.7" transform="rotate(45 77 6)"></rect>
-                <circle cx="71" cy="6" r="1.5" fill="var(--accent)" opacity="0.6"></circle>
-                <circle cx="83" cy="6" r="1.5" fill="var(--accent)" opacity="0.6"></circle>
-                <line x1="86" y1="6" x2="160" y2="6" stroke="var(--accent)" stroke-width="1" opacity="0.5"></line>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Pillar 3 -->
-      <article class="index-features-card">
-        <div class="index-features-card-inner">
-          <figure class="index-features-img-wrap">
-            <img data-placeholder="index-features-image-3" data-context="Elegant Shabbat candlesticks (pameotot) with modern minimalist design and traditional Jewish motifs, polished gold and silver finish, displayed on a dark royal blue velvet surface with warm candlelight glow, luxury Judaica gift" width="400" height="270" src="/assets/site-index-features-image-3.webp" alt="פמוטי שבת – שילוב של מסורת ועיצוב מודרני">
-          </figure>
-          <div class="index-features-card-body">
-            <div class="index-features-icon-wrap" aria-hidden="true">
-              <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="20" y="28" width="8" height="14" rx="2" stroke="var(--secondary)" stroke-width="1.5"></rect>
-                <path d="M18 28 L16 20 Q24 14 32 20 L30 28 Z" stroke="var(--secondary)" stroke-width="1.5" stroke-linejoin="round" fill="none"></path>
-                <path d="M22 20 C22 20 20 16 24 12 C28 16 26 20 26 20" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" fill="none"></path>
-                <line x1="14" y1="42" x2="34" y2="42" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round"></line>
-              </svg>
-            </div>
-            <h3 class="index-features-card-title">מסורת ועיצוב מודרני</h3>
-            <p class="index-features-card-text">אנו מאמינים שיופי ורוחניות הולכים יחד. כל פריט — בין אם חנוכייה יוקרתית, פמוטי שבת או מזוזה מעוצבת — שואב השראה מהמורשת היהודית הענפה ומבטא אותה בשפה עיצובית עכשווית ומינימליסטית.</p>
-            <div class="index-features-card-divider" aria-hidden="true">
-              <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 160 12" width="160" height="12" xmlns="http://www.w3.org/2000/svg">
-                <line x1="0" y1="6" x2="68" y2="6" stroke="var(--accent)" stroke-width="1" opacity="0.5"></line>
-                <rect x="74" y="3" width="6" height="6" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.7" transform="rotate(45 77 6)"></rect>
-                <circle cx="71" cy="6" r="1.5" fill="var(--accent)" opacity="0.6"></circle>
-                <circle cx="83" cy="6" r="1.5" fill="var(--accent)" opacity="0.6"></circle>
-                <line x1="86" y1="6" x2="160" y2="6" stroke="var(--accent)" stroke-width="1" opacity="0.5"></line>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </article>
-
-    </div>
     <!-- End Grid -->
 
   </div>
@@ -1062,7 +999,7 @@
 
 </section>
 
-<section class="index-gallery-section" data-layout-spec="בית-gallery" dir="rtl">
+<section class="index-gallery-section" data-layout-spec="בית-gallery" dir="rtl" id="index-gallery-section">
 
   <!-- Parchment texture overlay -->
   <div class="index-gallery-texture" aria-hidden="true"></div>
@@ -1086,7 +1023,7 @@
         <line x1="120" y1="6" x2="200" y2="6" stroke="#B08A3C" stroke-width="0.8" opacity="0.6"></line>
       </svg>
     </div>
-    <p class="index-gallery-label">יצירות מובחרות</p>
+    <p class="index-gallery-label" style="color: rgb(42, 36, 30) !important;">יצירות מובחרות</p>
     <h2 class="index-gallery-title">אומנות קדושה בעבודת יד</h2>
     <p class="index-gallery-subtitle">כל פריט הוא יחיד ומיוחד — חנוכיות, פמוטים ומזוזות בעיצוב מודרני עם נשמה מסורתית. גלו את הקולקציה שלנו של יודאיקה יוקרתית בהתאמה אישית.</p>
     <div class="index-gallery-ornament-bottom" aria-hidden="true">
@@ -1102,60 +1039,51 @@
 
   <!-- Gallery Grid -->
   <div class="index-gallery-container">
-    <div class="index-gallery-grid">
+    <div class="index-gallery-grid" style="display: grid; --zappy-grid-cols: repeat(4, minmax(0, 1fr)); grid-template-columns: repeat(4, minmax(0, 1fr));" data-zappy-explicit-columns="true">
 
       <!-- Hero Tile (center top, full width) -->
-      <div class="index-gallery-tile index-gallery-tile--hero">
-        <div class="index-gallery-tile-frame index-gallery-tile-frame--double">
-          <div class="index-gallery-tile-inner">
-            <img data-placeholder="index-gallery-image-1" data-context="A stunning handcrafted silver and gold menorah (Hanukkah lamp) displayed on a marble surface in warm studio lighting. Museum-quality photography with ivory background, dramatic side lighting highlighting intricate metalwork details, branches with elegant curves, premium Judaica artisan craftsmanship, deep blue velvet backdrop partially visible, photorealistic luxury product photography" width="1200" height="600" src="/assets/site-index-gallery-image-1.webp" alt="חנוכייה בעבודת יד מכסף וזהב — יצירת מופת של להבת קודש">
-            <div class="index-gallery-tile-overlay">
-              <span class="index-gallery-tile-tag">חנוכיות יוקרתיות</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <!-- Supporting Tiles Row -->
-      <div class="index-gallery-tile index-gallery-tile--secondary">
+      <div class="index-gallery-tile index-gallery-tile--secondary" data-grid-item-index="0">
         <div class="index-gallery-tile-frame">
           <div class="index-gallery-tile-inner">
-            <img data-placeholder="index-gallery-image-2" data-context="Elegant pair of handcrafted Shabbat candlesticks in sterling silver with delicate floral engravings, photographed on a white linen cloth with warm candlelight glow, soft bokeh background, luxury Judaica product photography, warm ivory tones, artisan craftsmanship detail, close-up angle showing texture and metalwork" width="600" height="400" src="/assets/site-index-gallery-image-2.webp" alt="פמוטי שבת מכסף בעבודת יד">
+            <img data-placeholder="index-gallery-image-2" data-context="Elegant pair of handcrafted Shabbat candlesticks in sterling silver with delicate floral engravings, photographed on a white linen cloth with warm candlelight glow, soft bokeh background, luxury Judaica product photography, warm ivory tones, artisan craftsmanship detail, close-up angle showing texture and metalwork" width="600" height="400" src="/assets/site-index-gallery-image-2.webp" alt="פמוטי שבת מכסף בעבודת יד" data-element-type="image" data-element-id="img-1777884733941-7w42l2717" style="">
             <div class="index-gallery-tile-overlay">
-              <span class="index-gallery-tile-tag">פמוטי שבת</span>
+              <span class="index-gallery-tile-tag" style="color: rgb(42, 36, 30) !important;">פמוטי שבת</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="index-gallery-tile index-gallery-tile--secondary">
+      <div class="index-gallery-tile index-gallery-tile--secondary" data-grid-item-index="1">
         <div class="index-gallery-tile-frame">
           <div class="index-gallery-tile-inner">
-            <img data-placeholder="index-gallery-image-3" data-context="Artisan handcrafted mezuzah case in brushed gold and deep blue enamel, mounted on a stone wall, close-up detail shot showing fine calligraphy scroll visible through a crystal window, luxury Judaica photography with warm studio lighting, premium craftsmanship details, royal blue and gold color palette" width="600" height="400" src="/assets/site-index-gallery-image-3.webp" alt="מזוזה בעבודת יד בזהב וכחול">
+            <img data-placeholder="index-gallery-image-3" data-context="Artisan handcrafted mezuzah case in brushed gold and deep blue enamel, mounted on a stone wall, close-up detail shot showing fine calligraphy scroll visible through a crystal window, luxury Judaica photography with warm studio lighting, premium craftsmanship details, royal blue and gold color palette" width="600" height="400" src="/assets/site-index-gallery-image-3.webp" alt="מזוזה בעבודת יד בזהב וכחול" data-element-type="image" data-element-id="img-1777884733941-lz16u353k" style="">
             <div class="index-gallery-tile-overlay">
-              <span class="index-gallery-tile-tag">מזוזות</span>
+              <span class="index-gallery-tile-tag" style="color: rgb(42, 36, 30) !important;">מזוזות</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="index-gallery-tile index-gallery-tile--secondary">
+      <div class="index-gallery-tile index-gallery-tile--secondary" data-grid-item-index="2">
         <div class="index-gallery-tile-frame">
           <div class="index-gallery-tile-inner">
-            <img data-placeholder="index-gallery-image-4" data-context="Close-up macro photograph of artisan hands working on a silver Judaica piece, hammering intricate patterns into metal, warm workshop lighting, sawdust and metal shavings visible, authentic handcraft process, premium artisan photography, bokeh background with tools, warm golden tones" width="600" height="400" src="/assets/site-index-gallery-image-4.webp" alt="עבודת יד אמנותית — תהליך יצירת יודאיקה">
+            <img data-placeholder="index-gallery-image-4" data-context="Close-up macro photograph of artisan hands working on a silver Judaica piece, hammering intricate patterns into metal, warm workshop lighting, sawdust and metal shavings visible, authentic handcraft process, premium artisan photography, bokeh background with tools, warm golden tones" width="600" height="400" src="/assets/site-index-gallery-image-4.webp" alt="עבודת יד אמנותית — תהליך יצירת יודאיקה" data-element-type="image" data-element-id="img-1777884733941-3e3el2srn" style="">
             <div class="index-gallery-tile-overlay">
-              <span class="index-gallery-tile-tag">עבודת יד באהבה</span>
+              <span class="index-gallery-tile-tag" style="color: rgb(42, 36, 30) !important;">עבודת יד באהבה</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="index-gallery-tile index-gallery-tile--secondary">
+      <div class="index-gallery-tile index-gallery-tile--secondary" data-grid-item-index="3">
         <div class="index-gallery-tile-frame">
           <div class="index-gallery-tile-inner">
-            <img data-placeholder="index-gallery-image-5" data-context="Luxury gift-wrapped Judaica set including a small menorah and mezuzah in premium packaging, deep blue velvet box with gold ribbon, elegant presentation, warm studio lighting, gift photography for high-end Jewish ceremonial gifts, parchment paper and gold wax seal visible, premium product photography" width="600" height="400" src="/assets/site-index-gallery-image-5.webp" alt="מארז מתנה יוקרתי — יודאיקה בהתאמה אישית">
+            <img data-placeholder="index-gallery-image-5" data-context="Luxury gift-wrapped Judaica set including a small menorah and mezuzah in premium packaging, deep blue velvet box with gold ribbon, elegant presentation, warm studio lighting, gift photography for high-end Jewish ceremonial gifts, parchment paper and gold wax seal visible, premium product photography" width="600" height="400" src="/assets/site-index-gallery-image-5.webp" alt="מארז מתנה יוקרתי — יודאיקה בהתאמה אישית" data-element-type="image" data-element-id="img-1777884733941-t2vjil62u" style="">
             <div class="index-gallery-tile-overlay">
-              <span class="index-gallery-tile-tag">מוצרים בהתאמה אישית</span>
+              <span class="index-gallery-tile-tag" style="color: rgb(42, 36, 30) !important;">מוצרים בהתאמה אישית</span>
             </div>
           </div>
         </div>
@@ -1165,8 +1093,8 @@
 
     <!-- CTA -->
     <div class="index-gallery-cta">
-      <a href="/gallery" class="index-gallery-btn-primary">לצפייה בקולקציה המלאה</a>
-      <a href="/contact" class="index-gallery-btn-secondary">צרו קשר להתאמה אישית</a>
+      <a href="/gallery" class="index-gallery-btn-primary" data-element-type="button" data-element-id="btn-1777884733933-mrjzij3j1" data-native-element="true">לצפייה בקולקציה המלאה</a>
+      <a href="/contact" class="index-gallery-btn-secondary" style="color: rgb(42, 36, 30) !important;" data-element-type="button" data-element-id="btn-1777884733933-2cufw2r9b" data-native-element="true">צרו קשר להתאמה אישית</a>
     </div>
 
   </div>
