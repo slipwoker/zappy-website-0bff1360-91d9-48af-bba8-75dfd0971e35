@@ -1,0 +1,101 @@
+# להבת קודש — Generative Engine Optimization Map
+
+> Lahavat Kodesh is a premium handmade Judaica brand that blends sacred Jewish tradition with modern artisan craftsmanship. The brand exudes luxury and spirituality, offering unique handcrafted pieces such as menorahs, Shabbat candlesticks, and mezuzot — each one-of-a-kind. The visual identity is built around deep royal blue, metallic gold, and soft cream tones, evoking elegance, holiness, and timeless artistry. The brand positions itself as the ultimate source for meaningful, high-end Judaica gifts that honor heritage while embracing contemporary design sensibility.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+גלו עולם של יודאיקה יוקרתית בעבודת יד — חנוכיות, מזוזות ופמוטי שבת ייחודיים. כל פריט מספר סיפור של מסורת, אמנות ורוחניות. הזמינו עוד היום.
+
+### סיפור המותג
+https://example.com/brand-story
+להבת קודש נולדה מתוך אהבה עמוקה למורשת היהודית ולאומנות עכשווית. גלו כיצד כל יצירה מגשרת בין קדושה ועיצוב מודרני, ומה מניע אותנו ליצור.
+
+### קולקציות
+https://example.com/collections
+עיינו בקולקציות היוקרתיות שלנו: חנוכיות יוקרתיות, מזוזות מעוצבות ופמוטי שבת עשויים בקפידה. כל פריט הוא יצירת מופת ייחודית שלא תמצאו בשום מקום אחר.
+
+### צור קשר
+https://example.com/contact
+רוצים לשמוע עוד על מוצרים בהתאמה אישית או להזמין יצירה מיוחדת? צוות להבת קודש כאן לכל שאלה. פנו אלינו ונחזור אליכם בהקדם עם כל התשובות.
+
+### Products
+https://example.com/products
+המוצרים שלנו - להבת קודש
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - להבת קודש
+
+### Category
+https://example.com/category/:slug
+מוצרים - להבת קודש
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About להבת קודש
+Lahavat Kodesh is a premium handmade Judaica brand that blends sacred Jewish tradition with modern artisan craftsmanship. The brand exudes luxury and spirituality, offering unique handcrafted pieces such as menorahs, Shabbat candlesticks, and mezuzot — each one-of-a-kind. The visual identity is built around deep royal blue, metallic gold, and soft cream tones, evoking elegance, holiness, and timeless artistry. The brand positions itself as the ultimate source for meaningful, high-end Judaica gifts that honor heritage while embracing contemporary design sensibility.
+
+## Target Audience
+- רוכשי יודאיקה יוקרתית, מחפשי מתנות ייחודיות עם משמעות
+- רוכשי יודאיקה יוקרתית
+- מחפשי מתנות ייחודיות עם משמעות
+- אספני אומנות יהודית
+
+## Industry
+יודאיקה, אומנות יהודית, מוצרי מתנה
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
